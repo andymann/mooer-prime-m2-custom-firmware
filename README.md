@@ -306,6 +306,12 @@ through re-deriving every offset from scratch.
 
 ---
 
+## Recovering from a bad flash / manual flashing
+
+tbd
+
+---
+
 ## Known limitations
 
 - Non-clock system messages (0xF0–0xFF, excluding 0xF8) are forwarded to
