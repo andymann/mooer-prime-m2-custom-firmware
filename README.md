@@ -38,8 +38,30 @@ original handler unchanged.
 
 ## Prerequisites
 
-```
+It is recommended to install dependencies in a virtual environment so they
+don't conflict with other Python projects on your system.
+
+```bash
+# Create and activate a virtual environment (one-time setup)
+python3 -m venv .venv
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Install dependencies
 pip install -r requirements.txt
+```
+
+After activation your shell prompt shows `(.venv)`.  All `python` and `pip`
+commands in this README assume the venv is active.
+
+To deactivate when you're done:
+
+```bash
+deactivate
 ```
 
 For `upload_firmware.py` you also need the native **libhidapi** shared
