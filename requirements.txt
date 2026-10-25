@@ -1,0 +1,11 @@
+# Mooer Prime M2 custom firmware tools
+# Install with:  pip install -r requirements.txt
+
+# USB HID communication (for upload_firmware.py)
+hidapi>=0.14.0
+
+# ARM Thumb-2 assembler — needed only for discover_offsets.py / re-patching
+keystone-engine>=0.9.2
+
+# ARM disassembler — needed only for discover_offsets.py / verification
+capstone>=5.0.1
